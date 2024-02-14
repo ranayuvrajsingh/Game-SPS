@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- <h1>Hello World</h1> -->
+    <h1 class="title">Stone Paper Scissor Game</h1>
+    <div class="bt">
+      <button
+        class="b1"
+        onclick="computerChoice=generateComputerChoice();
+      resultMsg=getResult('rock',computerChoice);
+      showResult('rock',computerChoice,resultMsg)"
+      >
+        <img
+          class="stone"
+          src="./images//—Pngtree—yellow hard pattern cartoon stone_4492648.png"
+          alt=""
+        />
+      </button>
+      <button
+        class="b2"
+        onclick="computerChoice=generateComputerChoice();
+      resultMsg=getResult('paper',computerChoice);
+      showResult('paper',computerChoice,resultMsg)"
+      >
+        <img
+          class="paper"
+          src="./images//cartoon-notebook-paper-running-vector-1986434.jpg"
+          alt=""
+        />
+      </button>
+      <button
+        class="b3"
+        onclick="computerChoice=generateComputerChoice();
+      resultMsg=getResult('scissors',computerChoice);
+      showResult('scissors',computerChoice,resultMsg)"
+      >
+        <img
+          class="scissor"
+          src="./images/png-transparent-computer-icons-cartoon-scissors-technic-scissors-artwork-thumbnail.png"
+          alt=""
+        />
+      </button>
+    </div>
+    <div class="reset"><button id="resetButton">↻</button></div>
+    <div class="result"></div>
+    <script src="./Javascript.js"></script>
+  </body>
+</html>

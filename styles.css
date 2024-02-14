@@ -1,0 +1,84 @@
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bt {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.b1 {
+  height: 60px;
+  width: 90px;
+  font-weight: bolder;
+  background-color: rgba(0, 0, 0, 0.715);
+
+  border: 1px solid black;
+  border-radius: 5%;
+  outline: none;
+  cursor: pointer;
+}
+.stone {
+  width: 61px;
+}
+.paper {
+  width: 50%;
+}
+.scissor {
+  width: 50%;
+}
+.b2 {
+  height: 60px;
+  width: 90px;
+  font-weight: bolder;
+  background-color: rgba(161, 158, 158, 0.715);
+  color: rgb(254, 253, 252);
+  border: 1px solid black;
+  border-radius: 5%;
+  outline: none;
+  cursor: pointer;
+}
+
+.b3 {
+  height: 60px;
+  width: 90px;
+  font-weight: bolder;
+  background-color: rgba(243, 247, 246, 0.715);
+  color: rgb(254, 253, 252);
+  border: 1px solid black;
+  border-radius: 5%;
+  outline: none;
+  cursor: pointer;
+}
+.result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.reset {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+#resetButton {
+  height: 30px;
+  width: 90px;
+  font-weight: bolder;
+  background-color: rgba(8, 141, 243, 0.715);
+  color: white;
+  font-size: 22px;
+  border: 1px solid black;
+  border-radius: 5%;
+  outline: none;
+  cursor: pointer;
+}
